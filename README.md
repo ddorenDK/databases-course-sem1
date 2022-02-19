@@ -1,5 +1,9 @@
 ## Group 11
 
+Coding Language: Python
+
+---
+
 ### Mandatory 1 
 **Deadline 16-03-2022 23:59**
 
