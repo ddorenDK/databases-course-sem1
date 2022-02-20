@@ -2,7 +2,7 @@
 
 Coding Language: Python
 
-Relational Database: MySQL
+RDBMS: MySQL
 
 ---
 
