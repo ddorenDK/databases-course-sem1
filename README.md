@@ -1,7 +1,8 @@
 ## Group 11
 
 Coding Language: Python
-Relational Database: MySQL 
+
+RDBMS: MySQL
 
 ---
 
