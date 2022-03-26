@@ -1,0 +1,104 @@
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('1', 'Computer Science', 'IT', 'Central');
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('2', 'Artificial Intelligence', 'IT', 'Central');
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('3', 'Economy', 'ECON', 'North');
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('4', 'Finance', 'ECON', 'North');
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('5', 'Banking', 'ECON', 'North');
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('6', 'International Law', 'LAW', 'West');
+INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('7', 'Danish Law', 'LAW', 'West');
+
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`, `birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('1','John', 'West', '22/08/1997', '220897-4523', '+45 25684722', '1');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`, `birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('2','Nigel', 'Bensmith', '09/05/1998', '090598-7421', '+45 796224100', '1');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('3','Sam', 'White', '14/08/1997', '140897-1979', '+45 20566374', '2');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,  `birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('4','George', 'Smith', '11/01/1998', '110198-7103', '+45 63225570', '2');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('5','Alex', 'McFord', '01/07/2000', '010700-6311', '+45 42322571', '3');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('6','Johanne', 'Hansen', '16/10/1998', '161098-9524', '+45 76129533', '3');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('7','Laura', 'Siemens', '27/11/1997', '271197-3198', '+45 50098841', '4');
+
+INSERT INTO `university`.`course` (`id`, `name`, `duration`, `Programme_id`) VALUES ('1', 'Programming 1', '6', '1');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Databases 1', '6', '1');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Programming 2', '6', '1');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Intro to AI ', '3', '2');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Applied AI', '6', '2');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Big Data', '6', '1');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Applied Mathematics', '3', '2');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Networking ', '6', '1');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Discrete Structures', '6', '2');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Algorithms & Data Structures', '6', '1');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Microeconomics', '6', '3');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Macroeconomics', '6', '3');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Applied Statistics', '6', '3');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Intro to Finance', '3', '3');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Maths for Finance', '6', '4');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Excel Spreadsheets', '12', '4');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Big Talk', '6', '4');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Professional Word', '6', '4');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Powerpoint for Meetings', '6', '4');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Intro Banking ', '12', '5');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Economics & Finance', '6', '5');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Suits & Haircuts', '12', '5');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Money Counting', '3', '5');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Money Keeping', '3', '5');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Selling and Buying ', '6', '5');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('EU Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Asia Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('USA Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Intro to Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Law for Finance', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Medical Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Russian Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('South American Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Chinese Law', '6', '6');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Intro to Law', '3', '7');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Housing Law', '3', '7');
+INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Business Law', '6', '7');
+
+INSERT INTO `university`.`teacher` (`id`, `first_name`,`last_name`, `phone_number`, `email`) VALUES ('1', 'Peter', 'Dinklage','+45 25488760', 'peter.dinklage@gmail.com');
+INSERT INTO `university`.`teacher` (`first_name`,`last_name`, `phone_number`, `email`) VALUES ('John', 'Kaine','+45 74133205', 'john.kaine@gmail.com');
+INSERT INTO `university`.`teacher` (`first_name`,`last_name`, `phone_number`, `email`) VALUES ('Fred', 'Hopper','+45 14402366', 'fred.hopper@gmail.com');
+INSERT INTO `university`.`teacher` (`first_name`,`last_name`, `phone_number`, `email`) VALUES ('Theodore', 'Kaczynski','+45 82311674', 'theo.postchess@gmail.com');
+INSERT INTO `university`.`teacher` (`first_name`,`last_name`, `phone_number`, `email`) VALUES ('Frank', 'Frypo','+45 17542699', 'ff.ypo@gmail.com');
+INSERT INTO `university`.`teacher` (`first_name`,`last_name`, `phone_number`, `email`) VALUES ('Alexandru', 'Gabriel','+45 36410255', 'alexpebicicleta@gmail.com');
+INSERT INTO `university`.`teacher` (`first_name`,`last_name`, `phone_number`, `email`) VALUES ('George', 'Porto','+45 24102333', 'georgeporo@gmail.com');
+
+UPDATE `university`.`course` SET `Teacher_id` = '1' WHERE (`id` = '1') and (`Programme_id` = '1');
+UPDATE `university`.`course` SET `Teacher_id` = '1' WHERE (`id` = '2') and (`Programme_id` = '1');
+UPDATE `university`.`course` SET `Teacher_id` = '1' WHERE (`id` = '3') and (`Programme_id` = '1');
+UPDATE `university`.`course` SET `Teacher_id` = '2' WHERE (`id` = '4') and (`Programme_id` = '2');
+UPDATE `university`.`course` SET `Teacher_id` = '2' WHERE (`id` = '5') and (`Programme_id` = '2');
+UPDATE `university`.`course` SET `Teacher_id` = '2' WHERE (`id` = '6') and (`Programme_id` = '1');
+UPDATE `university`.`course` SET `Teacher_id` = '3' WHERE (`id` = '7') and (`Programme_id` = '2');
+UPDATE `university`.`course` SET `Teacher_id` = '3' WHERE (`id` = '8') and (`Programme_id` = '1');
+UPDATE `university`.`course` SET `Teacher_id` = '3' WHERE (`id` = '9') and (`Programme_id` = '2');
+UPDATE `university`.`course` SET `Teacher_id` = '4' WHERE (`id` = '10') and (`Programme_id` = '1');
+UPDATE `university`.`course` SET `Teacher_id` = '4' WHERE (`id` = '11') and (`Programme_id` = '3');
+UPDATE `university`.`course` SET `Teacher_id` = '4' WHERE (`id` = '12') and (`Programme_id` = '3');
+UPDATE `university`.`course` SET `Teacher_id` = '4' WHERE (`id` = '13') and (`Programme_id` = '3');
+UPDATE `university`.`course` SET `Teacher_id` = '4' WHERE (`id` = '14') and (`Programme_id` = '3');
+UPDATE `university`.`course` SET `Teacher_id` = '4' WHERE (`id` = '15') and (`Programme_id` = '4');
+UPDATE `university`.`course` SET `Teacher_id` = '5' WHERE (`id` = '16') and (`Programme_id` = '4');
+UPDATE `university`.`course` SET `Teacher_id` = '5' WHERE (`id` = '17') and (`Programme_id` = '4');
+UPDATE `university`.`course` SET `Teacher_id` = '5' WHERE (`id` = '18') and (`Programme_id` = '4');
+UPDATE `university`.`course` SET `Teacher_id` = '5' WHERE (`id` = '19') and (`Programme_id` = '4');
+UPDATE `university`.`course` SET `Teacher_id` = '6' WHERE (`id` = '20') and (`Programme_id` = '5');
+UPDATE `university`.`course` SET `Teacher_id` = '6' WHERE (`id` = '21') and (`Programme_id` = '5');
+UPDATE `university`.`course` SET `Teacher_id` = '7' WHERE (`id` = '22') and (`Programme_id` = '5');
+UPDATE `university`.`course` SET `Teacher_id` = '7' WHERE (`id` = '23') and (`Programme_id` = '5');
+UPDATE `university`.`course` SET `Teacher_id` = '7' WHERE (`id` = '24') and (`Programme_id` = '5');
+UPDATE `university`.`course` SET `Teacher_id` = '7' WHERE (`id` = '25') and (`Programme_id` = '5');
+
+INSERT INTO `university`.`elective` (`id`, `name`, `Teacher_id`) VALUES ('1', 'Freedom of Press', '2');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('Freedom of Expression', '1');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('Anatomy', '2');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('Snus Science', '4');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('Engineering', '4');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('Marital Law', '1');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('Dark Web', '4');
+INSERT INTO `university`.`elective` (`name`, `Teacher_id`) VALUES ('App Development', '6');
+
+#Be careful with this one because sometimes the student ids, if generated automatically are not actual
+INSERT INTO `university`.`student_has_elective` (`Student_Elective_id`, `Student_id`, `Elective_id`) VALUES ('1', '1', '2');
+INSERT INTO `university`.`student_has_elective` (`Student_id`, `Elective_id`) VALUES ('2', '3');
+INSERT INTO `university`.`student_has_elective` (`Student_id`, `Elective_id`) VALUES ('4', '4');
+INSERT INTO `university`.`student_has_elective` (`Student_id`, `Elective_id`) VALUES ('5', '1');
+
+
