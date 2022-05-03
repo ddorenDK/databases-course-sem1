@@ -1,8 +1,4 @@
-CREATE 
-    ALGORITHM = UNDEFINED 
-    DEFINER = `root`@`localhost` 
-    SQL SECURITY DEFINER
-VIEW `student_enrollment` AS
+CREATE VIEW `student_enrollment` AS
     SELECT 
         `s`.`id` AS `id`,
         `s`.`first_name` AS `first_name`,
