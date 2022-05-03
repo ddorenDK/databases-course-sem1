@@ -16,14 +16,3 @@ RDBMS: MySQL
 
 # Mandatory 2
 
-## Tasks
-
-### Database
-- Redo the database to include a 'grades' table
-- Display the updated ERD
-- Update the population script
-- Verify that everything works
-
-### Python api
-- Database connection
-- Basic CRUD
