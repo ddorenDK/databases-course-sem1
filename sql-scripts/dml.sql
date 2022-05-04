@@ -6,13 +6,13 @@ INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES 
 INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('6', 'International Law', 'LAW', 'West');
 INSERT INTO `university`.`programme` (`id`, `name`, `field`, `location`) VALUES ('7', 'Danish Law', 'LAW', 'West');
 
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`, `birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('1','John', 'West', '22/08/1997', '220897-4523', '+45 25684722', '1');
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`, `birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('2','Nigel', 'Bensmith', '09/05/1998', '090598-7421', '+45 796224100', '1');
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('3','Sam', 'White', '14/08/1997', '140897-1979', '+45 20566374', '2');
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,  `birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('4','George', 'Smith', '11/01/1998', '110198-7103', '+45 63225570', '2');
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('5','Alex', 'McFord', '01/07/2000', '010700-6311', '+45 42322571', '3');
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('6','Johanne', 'Hansen', '16/10/1998', '161098-9524', '+45 76129533', '3');
-INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `Programme_id`) VALUES ('7','Laura', 'Siemens', '27/11/1997', '271197-3198', '+45 50098841', '4');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`, `birthdate`, `cpr`, `phone_number`,  `graduation_date`, `Programme_id`) VALUES ('1','John', 'West', '22/08/1997', '220897-4523', '+45 25684722', '2022-01-01', '1');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`, `birthdate`, `cpr`, `phone_number`,  `graduation_date`, `Programme_id`) VALUES ('2','Nigel', 'Bensmith', '09/05/1998', '090598-7421', '+45 796224100', '2023-01-01', '1');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`,  `graduation_date`, `Programme_id`) VALUES ('3','Sam', 'White', '14/08/1997', '140897-1979', '+45 20566374', '2023-01-01', '2');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,  `birthdate`, `cpr`, `phone_number`,  `graduation_date`, `Programme_id`) VALUES ('4','George', 'Smith', '11/01/1998', '110198-7103', '+45 63225570', '2024-01-01', '2');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`,  `graduation_date`, `Programme_id`) VALUES ('5','Alex', 'McFord', '01/07/2000', '010700-6311', '+45 42322571', '2024-01-01', '3');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`, `graduation_date`, `Programme_id`) VALUES ('6','Johanne', 'Hansen', '16/10/1998', '161098-9524', '+45 76129533', '2025-01-01', '3');
+INSERT INTO `university`.`student` (`id`,`first_name`,`last_name`,`birthdate`, `cpr`, `phone_number`,  `graduation_date`, `Programme_id`) VALUES ('7','Laura', 'Siemens', '27/11/1997', '271197-3198', '+45 50098841', '2025-01-01', '4');
 
 INSERT INTO `university`.`course` (`id`, `name`, `duration`, `Programme_id`) VALUES ('1', 'Programming 1', '6', '1');
 INSERT INTO `university`.`course` (`name`, `duration`, `Programme_id`) VALUES ('Databases 1', '6', '1');
