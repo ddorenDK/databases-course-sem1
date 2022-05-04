@@ -13,6 +13,8 @@ RDBMS: MySQL
 
 ---
 
-
 # Mandatory 2
+![image](https://user-images.githubusercontent.com/89907196/166588435-9a179854-bba1-4504-9955-3a50205ace4a.png)
+![image](https://user-images.githubusercontent.com/89907196/166588451-b4470a2f-9a55-4692-a2e6-5ef9f94c485b.png)
+
 
